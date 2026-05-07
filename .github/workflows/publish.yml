@@ -31,7 +31,7 @@ jobs:
         run: npm run build
 
       - name: Scan community package
-        run: npx @n8n/scan-community-package n8n-nodes-akto
+        run: npx @n8n/scan-community-package .
 
       - name: Publish with provenance
         run: npm publish --provenance --access public
