@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-akto",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "n8n community node to protect and monitor AI agent interactions using Akto",
 	"license": "MIT",
 	"homepage": "https://www.akto.io",
@@ -20,7 +20,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/akto-api-security/n8n-nodes-akto.git"
+		"url": "git+https://github.com/akto-api-security/n8n-nodes-akto.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
